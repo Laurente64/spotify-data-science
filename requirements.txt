@@ -1,5 +1,6 @@
-# pandas
-# requests
-# openmeteo_requests
-# requests_cache
-# retry_requests
+pandas
+requests
+openmeteo-requests
+requests-cache
+retry-requests
+scikit-learn
