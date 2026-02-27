@@ -1,5 +1,4 @@
 /spotify_history
-*.json
 *.pdf
 *.sqlite
 *.zip
