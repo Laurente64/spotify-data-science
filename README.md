@@ -63,7 +63,6 @@ graph LR
         subgraph External ["External Signals (API Calls)"]
             direction TB
             E{{ReccoBeats}}:::api
-            F{{Spotify}}:::api
             G{{ip-api}}:::api
             H{{open-meteo}}:::api
         end
@@ -94,7 +93,7 @@ graph LR
     %% API Injections (Using dotted lines)
     G -.-> P2
     H -.-> P3
-    E & F -.-> P4
+    E -.-> P4
 ```
 
 ---
